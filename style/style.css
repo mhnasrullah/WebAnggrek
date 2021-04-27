@@ -17,6 +17,9 @@ p {
 nav {
   background-color: #c4df9c;
 }
+nav a{
+  color: black !important;
+}
 .navbar-brand {
   font-size: 28px;
 }
@@ -80,4 +83,48 @@ nav a.btn {
 }
 .produk img {
   border-radius: 10px;
+}
+
+/* lokasi */
+.lokasi {
+  padding: 100px 0 100px 0;
+}
+.lokasi .map {
+  border: 2px !important;
+  border-color: #c4df9c;
+}
+.lokasi a{
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 8px 32px;
+}
+
+/* hubungi */
+.hubungi {
+  margin-bottom: 100px;
+}
+.hubungi a{
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: black;
+  width: 220px;
+  height: 40px;
+}
+
+/* footer */
+.footer{
+  background-color: #c4df9c;
+  padding: 50px 0;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
+.footer a p{
+  margin-bottom: 4px;
+}
+.footer a img {
+  width: 20px;
 }
