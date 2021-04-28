@@ -139,12 +139,6 @@ iframe{
   width: 20px;
 }
 
-
-/* pc */
-@media (min-width: 992px) {
-  
-}
-
 /* Tablet */
 @media (max-width: 991.98px) {
   

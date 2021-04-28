@@ -82,3 +82,37 @@ body {
   .footer a img {
     width: 20px;
   }
+
+  /* tablet */
+  @media (max-width: 991.98px) {
+    
+    /* root */
+  h4 {
+    font-size: 24px;
+  }
+  h6 {
+      font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  /* nav */
+  .navbar-nav a{
+    font-size: 16px;
+  }
+
+  nav a.btn{
+    width: 100px;
+    height: 35px;
+  }
+
+  /* jumbotron */
+  .jumbotron h1{
+    font-size: 28px;
+  }
+  .jumbotron h5{
+    font-size: 16px;
+  }
+
+  }
