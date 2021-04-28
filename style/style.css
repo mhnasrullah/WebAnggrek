@@ -42,6 +42,9 @@ nav a.btn {
 .jumbotron {
   background-color: #c4df9c;
 }
+.jumbotron h1{
+  font-family: 'Gentium Basic';
+}
 .jumbotron .container {
   padding-top: 80px;
 }
