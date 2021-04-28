@@ -100,3 +100,57 @@ body {
   .footer a img {
     width: 20px;
   }
+
+  /* Tablet */
+   @media (max-width: 991.98px) {
+  
+  /* root */
+  h4 {
+    font-size: 24px;
+  }
+  h6 {
+      font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  /* nav */
+  .navbar-nav a{
+    font-size: 16px;
+  }
+
+  nav a.btn{
+    width: 100px;
+    height: 35px;
+  }
+
+  /* tentang */
+.tentang{
+  padding: 80px 0;
+}
+.tentang .img{
+  height: 500px;
+}
+
+/* galeri */
+.galeri{
+  padding: 80px 0;
+}
+.galeri .img{
+  height: 280px;
+}
+
+  /* hubungi */
+  .hubungi {
+    margin-bottom: 80px;
+  }
+  .hubungi a{
+    width: 150px;
+    height: 40px;
+  }
+  /* footer */
+  .footer h6{
+    font-weight: 700;
+  }
+}

@@ -107,12 +107,8 @@ body {
     height: 35px;
   }
 
-  /* jumbotron */
-  .jumbotron h1{
-    font-size: 28px;
+  /* footer */
+  .footer h6{
+    font-weight: 700;
   }
-  .jumbotron h5{
-    font-size: 16px;
-  }
-
-  }
+}
