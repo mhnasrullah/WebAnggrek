@@ -45,3 +45,40 @@ body {
   .judul h1{
       font-family: 'Gentium Basic';
   }
+
+  /* galeri */
+  .galeriA,.galeriC{
+      padding: 100px 0;
+  }
+  .galeriA img,.galeriC img{
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+  }
+  
+  .galeriB{
+      padding: 100px 0;
+      background-color: #c4df9c;
+  }
+  .galeriB img{
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+  }
+
+  /* footer */
+.footer{
+    background-color: #c4df9c;
+    padding: 50px 0;
+  }
+  .footer a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+  }
+  .footer a p{
+    margin-bottom: 4px;
+  }
+  .footer a img {
+    width: 20px;
+  }
