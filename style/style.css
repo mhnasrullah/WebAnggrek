@@ -210,3 +210,29 @@ iframe{
     font-weight: 700;
   }
 }
+
+/* Mobile */
+@media (max-width: 575.98px) {
+
+  /* jumbotron */
+  .jumbotron .image{
+    height: 180px;
+    width: 100% !important;
+  }
+
+  .produk .col-md-4.col-12 p{
+    margin-top: -0.5rem;
+  }
+
+  /* hubungi */
+  .hubungi .row.gy-0 .col{
+    display: flex;
+    justify-content: center !important;
+  }
+
+  /* footer */
+  .footer .group-button{
+    display: flex;
+    justify-content: start !important;
+  }
+}
