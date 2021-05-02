@@ -154,3 +154,18 @@ body {
     font-weight: 700;
   }
 }
+
+@media (max-width: 575.98px) {
+
+  /* hubungi */
+  .hubungi .row.gy-0 .col{
+    display: flex;
+    justify-content: center !important;
+  }
+
+  /* footer */
+  .footer .group-button{
+    display: flex;
+    justify-content: start !important;
+  }
+}
